@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "Standard Notes Checksum",
+    "version": "1.0",
+  
+    "description": "A devtool WebExtension that verifies the checksum of the downloaded JS bundle in the Standard Notes web app.",
+
+    "icons": {
+      "32": "favicon.png"
+    },
+
+    "permissions": [
+      "*://app.standardnotes.org/"
+    ],
+    "devtools_page": "devtools/devtools-page.html"
+  }
